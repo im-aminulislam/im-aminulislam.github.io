@@ -1,18 +1,5 @@
 const skillGroups = [
   {
-    category: "Programming & Software",
-    skills: [
-      "Python",
-      "C++",
-      "JavaScript",
-      "TensorFlow.js",
-      "Edge ML Deployment",
-      "Git",
-      "MySQL",
-      "Cisco Fundamentals",
-    ],
-  },
-  {
     category: "Hardware & Systems Engineering",
     skills: [
       "Arduino",
@@ -25,6 +12,14 @@ const skillGroups = [
       "HTTP",
       "Wi-Fi",
       "Bluetooth",
+      "Python",
+      "C++",
+      "JavaScript",
+      "TensorFlow.js",
+      "Edge ML Deployment",
+      "Git",
+      "MySQL",
+      "Cisco Fundamentals",
     ],
   },
   {
@@ -47,7 +42,7 @@ const SkillsSection = () => {
         <div className="max-w-5xl mx-auto">
           <h2 className="section-heading">Technical Skills</h2>
 
-          <div className="grid md:grid-cols-3 gap-6">
+          <div className="grid md:grid-cols-2 gap-6">
             {skillGroups.map((group, index) => (
               <div
                 key={index}
